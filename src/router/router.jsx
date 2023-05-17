@@ -22,7 +22,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route key={i.path} path={i.path} element={<i.component />} />)
     }
   </Route>
-), { basename: "/hoanghamobile/" });
+), { basename: "/hoanghamobile.com" });
 
 
 export { router }
